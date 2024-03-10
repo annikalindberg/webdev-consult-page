@@ -1,3 +1,4 @@
+// this is the page that will be rendered for each page in the site
 import { getPage } from "@/sanity/sanity-utils";
 import { PortableText } from "@portabletext/react";
 
