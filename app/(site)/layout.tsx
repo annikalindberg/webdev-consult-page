@@ -3,8 +3,8 @@ import Link from "next/link"
 import { getPages } from '@/sanity/sanity-utils';
 
 export const metadata = {
-  title: 'RiotGrl Tech Solutions',
-  description: 'Webbsida för RiotGrl Tech Solutions',
+  title: 'NextToEdit',
+  description: 'Freelance web developer',
 }
 
 export default async function RootLayout({
@@ -20,7 +20,7 @@ export default async function RootLayout({
         <header className="flex items-center justify-between">
 {/*           <Link href="/" className="bg-gradient-to-r from-orange-400 via-red-500 to-purple-600 bg-clip-text text-transparent text-lg font-bold">RiotGrrrlTech Solutions</Link>
  */}          
- <Link href="/" className="bg-gradient-to-r from-teal-200 via-cyan-200 to-blue-200 bg-clip-text text-transparent text-lg font-bold">RiotGrlTech Solutions</Link>
+ <Link href="/" className="bg-gradient-to-r from-teal-200 via-cyan-200 to-blue-200 bg-clip-text text-transparent text-lg font-bold">NextToEdit Solutions</Link>
 
  <div className="flex items-center gap-5 text-sm text-white">
             {pages.map((page) => (

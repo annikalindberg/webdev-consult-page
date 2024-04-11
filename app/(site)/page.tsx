@@ -7,14 +7,14 @@ export default async function Home() {
   const projects = await getProjects();
 
   return (
-    <div>
-      <h1 className="text-6xl font-extrabold">Skapar framtidens webblösningar
+    <div className="p-2 m-4">
+      <h1 className=" mb-6 text-6xl font-extrabold ">NextToEdit Solutions 
 
-        <span className="bg-gradient-to-r from-orange-400 via-red-500 to-purple-600 bg-clip-text text-transparent"> RiotGrlTech Solutions </span>
+     Skräddarsydd hemsida optimerad utifrån tillgänglighet, SEO och prestanda
 
       </h1>
 
-      <p className="mt-3 text-xl text-gray-700">Konsult med fokus på tillgänlighet, SEO och marknadsledande tekniker </p>
+      <p className="mt-3 text-xl text-gray-700">Konsult med fokus på tillgänglighet, SEO och marknadsledande tekniker </p>
 
       <h2 className="mt-24 font-bold text-slate-800 text-3xl">Skräddarsydda lösningar - framtidssäkrade webbsidor</h2>
 
